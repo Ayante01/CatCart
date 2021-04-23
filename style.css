@@ -1,10 +1,14 @@
 body {
   background-color: #eeedea;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Raleway";
   color: #0e1914;
 }
 a {
   text-decoration: none;
+}
+h2{
+  font-size: 54px;
+  font-weight: bold;
 }
 .container-fluid {
   padding: 0 38px;
@@ -39,6 +43,7 @@ a {
 }
 #navbarToggleExternalContent {
   justify-content: flex-end;
+  font-family: "Libre Baskerville", serif;
 }
 .v-container {
   margin-top: calc(100vh - 50vh);
@@ -55,6 +60,7 @@ a {
   font-weight: 700;
   line-height: 1.1;
   margin: 0;
+  font-family: "Libre Baskerville", serif;;
 }
 .h1-start {
   font-size: 24px;
@@ -78,6 +84,7 @@ a {
 .show-text {
   color: #eeedea;
   font-size: 30px;
+  font-weight: bold;
   margin: auto;
   padding: 56px 0;
 }
@@ -93,8 +100,9 @@ a {
   justify-content: end;
 }
 .watch-tips-title {
-  margin-top: 658px;
+  margin-top: 580px;
   font-size: 36px;
+  font-family: "Libre Baskerville", serif;
   color: #eeedea;
 }
 .watch-tips-btn {
@@ -103,13 +111,42 @@ a {
   height: 64px;
   background-color: #aab5a663;
   text-align: center;
+  border-radius: 10px;
 }
 .watch-tips-text {
   color: #eeedea;
   font-size: 24px;
   margin: auto;
   padding: 16px 0;
+  font-weight: bold;
 }
+
+.how-we-work{
+  margin-top: 248px;
+  margin-left: 115px;
+}
+
+.how-we-work p{
+  margin-top: 56px;
+}
+
+.how-we-work h3{
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 80px;
+}
+
+.how-we-work a{
+  text-decoration: none;
+  font-weight: bold;
+  color:  #0e1914;
+}
+
+.wool-balls-container{
+  margin-top: 350px;
+}
+
+
 @media only screen and (max-width: 1024px) {
   .nav-text {
     margin-right: 0;
@@ -121,3 +158,5 @@ a {
     background-position: center;
   }
 }
+
+
