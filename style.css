@@ -81,15 +81,21 @@ h2{
   border-radius: 10px 10px 0 0;
   text-align: center;
 }
+.btn-one{
+  padding: 56px 0;
+}
+.arrow-one{
+  width: 40px;
+  height: 40px;
+}
 .show-text {
   color: #eeedea;
   font-size: 30px;
   font-weight: bold;
-  margin: auto;
-  padding: 56px 0;
+  margin: 0 16px 0 0;
 }
 .img-hero {
-  margin-top: -86px;
+  margin-top: -35px;
 }
 .watch-tips {
   width: 100%;
@@ -116,36 +122,101 @@ h2{
 .watch-tips-text {
   color: #eeedea;
   font-size: 24px;
-  margin: auto;
-  padding: 16px 0;
   font-weight: bold;
+  margin: 0 16px 0 0;
 }
-
+.btn-two{
+  padding: 16px 0;
+}
+.arrow-two{
+  width: 18px;
+  height: 18px;
+}
 .how-we-work{
   margin-top: 248px;
   margin-left: 115px;
 }
-
-.how-we-work p{
-  margin-top: 56px;
+.how-we-work-p{
+  margin-top: 50px;
 }
-
+.p-services{
+  margin-top: 38px;
+}
 .how-we-work h3{
   font-size: 36px;
   font-weight: bold;
   margin-top: 80px;
 }
-
 .how-we-work a{
   text-decoration: none;
   font-weight: bold;
   color:  #0e1914;
 }
-
 .wool-balls-container{
   margin-top: 350px;
 }
-
+.delivery{
+  margin: 0 35px 9px 0;
+  width: 76px;
+  height: 74px;
+}
+.phone{
+  margin: 0 35px 12px 0;
+  width: 73px;
+  height: 73px;
+}
+.footer{
+  width: 100%;
+}
+.footer-row-one{
+  margin-bottom: 62px;
+}
+.container-footer {
+  padding: 0 38px 0 0;
+  width: 100%;
+}
+.stay-in-touch{
+  margin: 350px 0 0 -50px;
+}
+.footer-p{
+  margin: 16px 0;
+}
+input{
+  border-radius: 8px;
+  border: none;
+}
+.input-text{
+  background-color: #aab5a673;
+  color: #0e1914;
+  margin: 0 14px 0 0;
+  font-size: 14px;
+  padding: 16px 24px;
+}
+.input-submit{
+  background-color: #d68708;
+  color: #eeedea;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 16px 24px;
+}
+.footer-a-text{
+  color: #0e1914;
+  margin: 62px 0 0 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+.bottom{
+  margin-top: -267px;
+}
+.copy{
+  margin-top: 220px;
+}
+.copy-img{
+  margin-right: 8px;
+}
+.copy-text{
+  margin: 0 400px 0 0;
+}
 
 @media only screen and (max-width: 1024px) {
   .nav-text {
@@ -156,6 +227,9 @@ h2{
   }
   .watch-tips {
     background-position: center;
+  }
+  .services{
+    flex-direction: column;
   }
 }
 
