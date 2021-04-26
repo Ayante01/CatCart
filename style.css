@@ -88,7 +88,7 @@ h2{
   width: 40px;
   height: 40px;
 }
-.show-text {
+.shop-text {
   color: #eeedea;
   font-size: 30px;
   font-weight: bold;
@@ -106,13 +106,13 @@ h2{
   justify-content: end;
 }
 .watch-tips-title {
-  margin-top: 580px;
-  font-size: 36px;
+  margin: 60vh 0 0 24px;
+  font-size: 32px;
   font-family: "Libre Baskerville", serif;
   color: #eeedea;
 }
 .watch-tips-btn {
-  margin-top: 38px;
+  margin: 38px 0 0 24px;
   width: 343px;
   height: 64px;
   background-color: #aab5a663;
@@ -218,6 +218,85 @@ input{
   margin: 0 400px 0 0;
 }
 
+/* Laptops */
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  h2{
+    font-size: 48px;
+  }
+  .main-title {
+    font-size: 100px;
+  }
+  .h1-start {
+    font-size: 20px;
+    margin-left: 8px;
+  }
+  .h1-mid {
+    font-size: 40px;
+  }
+  .h1-end {
+    margin-left: 50px;
+  }
+  .shop-btn {
+    width: 240px;
+    height: 120px;
+  }
+  .btn-one{
+    padding: 44px 0;
+  }
+  .arrow-one{
+    width: 30px;
+    height: 30px;
+  }
+  .shop-text {
+    font-size: 24px;
+  }
+  .img-hero {
+    margin-top: 0px;
+  }
+  .watch-tips {
+    background-position: center;
+    background-size: cover;
+  }
+  .watch-tips-title {
+    margin: 55vh 0 0 16px;
+    font-size: 24px;
+  }
+  .watch-tips-text {
+    font-size: 20px;
+  }
+  .how-we-work{
+    margin-top: 232px;
+    margin-left: 80px;
+  }
+  .how-we-work-p{
+    margin-top: 50px;
+  }
+  .p-services{
+    margin-top: 38px;
+  }
+  .how-we-work h3{
+    font-size: 32px;
+    margin-top: 70px;
+  }
+  .footer-row-one{
+    margin-bottom: 40px;
+  }
+  .stay-in-touch{
+    margin: 250px 0 0 -50px;
+  }
+  .footer-a-text{
+    margin: 52px 0 0 0;
+    font-size: 16px;
+  }
+  .bottom{
+    margin-top: -167px;
+  }
+  .copy-text{
+    margin: 0 150px 0 0;
+  }
+}
+
+/* Mobile */
 @media only screen and (max-width: 1024px) {
   .nav-text {
     margin-right: 0;
@@ -231,6 +310,30 @@ input{
   .services{
     flex-direction: column;
   }
+  .water-mark{
+    display: none;
+  }
+  h2{
+    font-size: 38px;
+  }
+  .title-container {
+   width: 100%;
+  }
+  .main-title {
+    font-size: 62px;
+    line-height: 1;
+  }
+  .h1-start {
+    font-size: 16px;
+    margin-left: 6px;
+  }
+  .h1-mid {
+    font-size: 32px;
+  }
+  .h1-end {
+    margin-left: 42px;
+  }
+  .img-hero {
+    display: none;
+  }
 }
-
-
