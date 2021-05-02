@@ -6,7 +6,7 @@ body {
 a {
   text-decoration: none;
 }
-h2{
+h2 {
   font-size: 54px;
   font-weight: bold;
 }
@@ -60,7 +60,7 @@ h2{
   font-weight: 700;
   line-height: 1.1;
   margin: 0;
-  font-family: "Libre Baskerville", serif;;
+  font-family: "Libre Baskerville", serif;
 }
 .h1-start {
   font-size: 24px;
@@ -81,10 +81,10 @@ h2{
   border-radius: 10px 10px 0 0;
   text-align: center;
 }
-.btn-one{
+.btn-one {
   padding: 56px 0;
 }
-.arrow-one{
+.arrow-one {
   width: 40px;
   height: 40px;
 }
@@ -97,19 +97,23 @@ h2{
 .img-hero {
   margin-top: -35px;
 }
+.mobile-view {
+  display: none;
+}
 .watch-tips {
   width: 100%;
   height: 100vh;
-  background-image: url("./img/BACKGROUND-CAT.png");
+  background-image: url("./imgs/BACKGROUND-CAT.png");
 }
 .watch-tips-container {
-  justify-content: end;
+  justify-content: flex-end;
 }
 .watch-tips-title {
   margin: 60vh 0 0 24px;
   font-size: 32px;
   font-family: "Libre Baskerville", serif;
   color: #eeedea;
+  text-shadow: 4px 0 40px #0e1914a1;
 }
 .watch-tips-btn {
   margin: 38px 0 0 24px;
@@ -125,102 +129,101 @@ h2{
   font-weight: bold;
   margin: 0 16px 0 0;
 }
-.btn-two{
+.btn-two {
   padding: 16px 0;
 }
-.arrow-two{
+.arrow-two {
   width: 18px;
   height: 18px;
 }
-.how-we-work{
+.how-we-work {
   margin-top: 248px;
   margin-left: 115px;
 }
-.how-we-work-p{
+.how-we-work-p {
   margin-top: 50px;
 }
-.p-services{
+.p-services {
   margin-top: 38px;
 }
-.how-we-work h3{
+.how-we-work h3 {
   font-size: 36px;
   font-weight: bold;
   margin-top: 80px;
 }
-.how-we-work a{
+.how-we-work a {
   text-decoration: none;
   font-weight: bold;
-  color:  #0e1914;
+  color: #0e1914;
 }
-.wool-balls-container{
+.wool-balls-container {
   margin-top: 350px;
 }
-.delivery{
+.delivery {
   margin: 0 35px 9px 0;
   width: 76px;
   height: 74px;
 }
-.phone{
+.phone {
   margin: 0 35px 12px 0;
   width: 73px;
   height: 73px;
 }
-.footer{
-  width: 100%;
-}
-.footer-row-one{
+.footer-row-one {
   margin-bottom: 62px;
 }
 .container-footer {
   padding: 0 38px 0 0;
-  width: 100%;
 }
-.stay-in-touch{
+.stay-in-touch {
   margin: 350px 0 0 -50px;
 }
-.footer-p{
+.footer-p {
   margin: 16px 0;
 }
-input{
+input {
   border-radius: 8px;
   border: none;
 }
-.input-text{
+.input-text {
   background-color: #aab5a673;
   color: #0e1914;
   margin: 0 14px 0 0;
   font-size: 14px;
   padding: 16px 24px;
 }
-.input-submit{
+.input-submit {
   background-color: #d68708;
   color: #eeedea;
   font-size: 20px;
   font-weight: 700;
   padding: 16px 24px;
 }
-.footer-a-text{
+.footer-a-text {
   color: #0e1914;
   margin: 62px 0 0 0;
   font-size: 20px;
   font-weight: 700;
 }
-.bottom{
+.bottom {
   margin-top: -267px;
 }
-.copy{
+.copy {
   margin-top: 220px;
 }
-.copy-img{
+.copy-img {
   margin-right: 8px;
 }
-.copy-text{
-  margin: 0 400px 0 0;
+.copy-text {
+  margin: 0;
+}
+.vector {
+  margin-top: -250px;
 }
 
 /* Laptops */
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-  h2{
+  h2 {
     font-size: 48px;
   }
   .main-title {
@@ -240,10 +243,10 @@ input{
     width: 240px;
     height: 120px;
   }
-  .btn-one{
+  .btn-one {
     padding: 44px 0;
   }
-  .arrow-one{
+  .arrow-one {
     width: 30px;
     height: 30px;
   }
@@ -264,40 +267,159 @@ input{
   .watch-tips-text {
     font-size: 20px;
   }
-  .how-we-work{
+  .how-we-work {
     margin-top: 232px;
     margin-left: 80px;
   }
-  .how-we-work-p{
+  .how-we-work-p {
     margin-top: 50px;
   }
-  .p-services{
+  .p-services {
     margin-top: 38px;
   }
-  .how-we-work h3{
+  .how-we-work h3 {
     font-size: 32px;
     margin-top: 70px;
   }
-  .footer-row-one{
+  .footer-row-one {
     margin-bottom: 40px;
   }
-  .stay-in-touch{
+  .stay-in-touch {
     margin: 250px 0 0 -50px;
   }
-  .footer-a-text{
+  .footer-a-text {
     margin: 52px 0 0 0;
     font-size: 16px;
   }
-  .bottom{
+  .bottom {
     margin-top: -167px;
   }
-  .copy-text{
-    margin: 0 150px 0 0;
+}
+
+/* Ipad */
+@media only screen and (min-width: 501px) and (max-width: 1024px) {
+  h2 {
+    font-size: 48px;
+  }
+  .main-title {
+    font-size: 110px;
+    width: 90%;
+    margin: 0 40px;
+  }
+  .h1-start {
+    font-size: 30px;
+    margin-left: 8px;
+  }
+  .h1-mid {
+    font-size: 70px;
+  }
+  .h1-end {
+    margin-left: 200px;
+  }
+  .shop-btn {
+    width: 280px;
+    height: 140px;
+    margin: -80px 0 0 40px;
+  }
+  .btn-one {
+    padding: 50px 0;
+  }
+  .arrow-one {
+    width: 32px;
+    height: 32px;
+  }
+  .shop-text {
+    font-size: 32px;
+  }
+  .pc-view {
+    display: none;
+  }
+  .mobile-view {
+    display: flex;
+    flex-direction: column;
+  }
+  .small-cat-hero {
+    width: 376px;
+    height: 661px;
+    margin-top: -50px;
+  }
+  .watch-tips {
+    background-position: center;
+    background-size: cover;
+    background-image: url("./imgs/BACKGROUND-CAT-SMALL.png");
+  }
+  .watch-tips-col {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .watch-tips-container {
+    justify-content: center;
+  }
+  .watch-tips-title {
+    margin: 75vh 0 0 0;
+    font-size: 24px;
+    text-shadow: 4px 0 10px #0e1914a1;
+  }
+  .watch-tips-text {
+    font-size: 16px;
+  }
+  .watch-tips-btn {
+    width: 50%;
+    background-color: #aab5a6cc;
+    box-shadow: 4px 0 60px #0e191470;
+  }
+  .how-we-work-img {
+    display: none;
+  }
+  .how-we-work {
+    width: 80%;
+    margin-top: 232px;
+    margin-left: 0;
+  }
+  .how-we-work-p {
+    margin-top: 50px;
+  }
+  .p-services {
+    margin-top: 38px;
+  }
+  .how-we-work h3 {
+    font-size: 32px;
+    margin-top: 70px;
+  }
+  .container-footer {
+    margin-top: -200px;
+  }
+  .footer-row-one {
+    margin-bottom: 40px;
+  }
+  .stay-in-touch {
+    margin: 180px 0 0 -50px;
+  }
+  .footer-a-text {
+    margin: 52px 0 0 0;
+    font-size: 16px;
+  }
+  .bottom {
+    margin-top: -167px;
+  }
+  .input-text {
+    font-size: 12px;
+    padding: 12px 8px;
+  }
+  .input-submit {
+    font-size: 16px;
+    padding: 12px 16px;
+    width: 24%;
+  }
+  .footer-nav {
+    width: 40%;
   }
 }
 
 /* Mobile */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 499px) {
   .nav-text {
     margin-right: 0;
   }
@@ -307,33 +429,161 @@ input{
   .watch-tips {
     background-position: center;
   }
-  .services{
+  .services {
     flex-direction: column;
   }
-  .water-mark{
+  .water-mark {
     display: none;
   }
-  h2{
-    font-size: 38px;
+  h2 {
+    font-size: 34px;
   }
   .title-container {
-   width: 100%;
+    width: 100%;
   }
   .main-title {
-    font-size: 62px;
+    font-size: 60px;
     line-height: 1;
+    width: 90%;
+    margin: 0 20px;
   }
   .h1-start {
     font-size: 16px;
-    margin-left: 6px;
+    margin-left: 4px;
   }
   .h1-mid {
-    font-size: 32px;
+    font-size: 28px;
   }
   .h1-end {
-    margin-left: 42px;
+    margin-left: 32px;
   }
-  .img-hero {
+  .pc-view {
     display: none;
+  }
+  .mobile-view {
+    display: flex;
+    flex-direction: column;
+  }
+  .shop-btn {
+    width: 160px;
+    height: 70px;
+    margin: -90px 0 0 20px;
+  }
+  .btn-one {
+    padding: 25px 0;
+  }
+  .arrow-one {
+    width: 18px;
+    height: 18px;
+  }
+  .shop-text {
+    font-size: 18px;
+  }
+  .small-cat-hero {
+    width: 269px;
+    height: 480px;
+    margin-top: -30px;
+  }
+  .watch-tips {
+    background-position: center;
+    background-size: cover;
+    background-image: url("./imgs/BACKGROUND-CAT-SMALL.png");
+  }
+  .watch-tips-col {
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+  }
+  .watch-tips-container {
+    justify-content: center;
+  }
+  .watch-tips-title {
+    margin: 68vh 0 0 0;
+    font-size: 14px;
+    line-height: 1.3;
+    text-shadow: 4px 0 10px #0e1914a1;
+  }
+  .watch-tips-text {
+    font-size: 14px;
+  }
+  .watch-tips-btn {
+    width: 90%;
+    height: 40px;
+    margin: 20px 0;
+    background-color: #aab5a6cc;
+    box-shadow: 4px 0 60px #0e191470;
+  }
+  .btn-two {
+    padding: 10px 0;
+  }
+  .how-we-work-img {
+    display: none;
+  }
+  .how-we-work {
+    width: 100%;
+    margin-top: 55px;
+    margin-left: 0;
+  }
+  .how-we-work-p {
+    margin-top: 35px;
+  }
+  .p-services {
+    margin-top: 38px;
+  }
+  .delivery {
+    margin: 60px 0 8px 0;
+    width: 112px;
+    height: 112px;
+  }
+  .phone {
+    margin: 60px 0 8px 0;
+    width: 100px;
+    height: 100px;
+  }
+  .how-we-work h3 {
+    font-size: 32px;
+    margin-top: 0px;
+  }
+  .container-footer {
+    padding: 0;
+    margin-top: -200px;
+  }
+  .footer-cat {
+    display: none;
+  }
+  .footer-row-one {
+    margin-bottom: 40px;
+  }
+  .stay-in-touch {
+    width: 100%;
+    margin: 180px 0 0 0px;
+  }
+  .footer-a-text {
+    margin: 52px 0 0 0;
+    font-size: 16px;
+  }
+  .bottom {
+    margin-top: -167px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+  }
+  .input-text {
+    width: 98%;
+    font-size: 14px;
+    padding: 16px 12px;
+    margin: 0 0 8px 0;
+  }
+  .input-submit {
+    font-size: 16px;
+    padding: 16px 16px;
+    width: 30%;
+    align-self: flex-end;
+  }
+  .footer-nav {
+    width: 40%;
   }
 }
