@@ -2,7 +2,7 @@
       <div class="col footer-cat-small">
           <img
             src="<?php echo get_template_directory_uri()."/imgs/FOOOTER-CAT-SMALL.png"; ?>"
-            alt="FooterCat"
+            alt="FooterCatSmall"
             class="mini-cat"
           />
       </div>
