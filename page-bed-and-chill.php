@@ -1,30 +1,26 @@
 <?php get_header(); ?>
 
-<section class="f-t-container">
-    <div class="d-flex justify-content-between f-t-row-col">
-        <div class="f-t-col food">
-        <img
-            src="<?php echo get_template_directory_uri()."/imgs/BED.png"; ?>"
-            alt="FOOD"
-            class="img-fluid f-t f-t-left"
-          />
-          <div class="f-t-text text-food">
-            <hr class="orange-line">
-            <p class="">Bed</p>
+<section class="f-t-container container-fluid d-flex justify-content-between">
+  <div class="f-t-col d-flex justify-content-between flex-column">
+    <div class="d-flex justify-content-between">
+      <h2 class="col-1 h2-f-t">Bed and Chill</h2>
+      <hr class="orange-line">
+    </div>
+      <a class="f-t-a" href="#">
+        <div class="img-fluid f-t f-t-left bed">
+          <div class="f-t-text d-flex justify-content-end">
+            <p class="text-left">Bed</p>
           </div>
         </div>
-        <div class="f-t-col">
-        <img
-            src="<?php echo get_template_directory_uri()."/imgs/CHILL.png"; ?>"
-            alt="TREATS"
-            class="img-fluid d-flex align-self-end f-t f-t-right"
-          />
-          <div class="f-t-text text-treats d-flex">
-            <p class="d-flex align-self-end treats">Chill</p> 
-            <hr class="orange-line">
+      </a>
+  </div>
+      <a class="f-t-col" href="#">
+        <div class="img-fluid f-t f-t-right chill">
+          <div class="f-t-text d-flex">
+              <p class="text-right">Chill</p>
           </div>
-        </div> 
-    </div>
+        </div>
+      </a>
 </section>
 
 <?php get_footer(); ?>

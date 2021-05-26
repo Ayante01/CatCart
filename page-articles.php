@@ -1,15 +1,8 @@
 <?php get_header(); ?>
+
 <section>
-    <div class="watch-tips hero-tips">
-      <div class="container-fluid row watch-tips-container">
-        <div class="col-5 watch-tips-col">
-          <p class="watch-tips-title">
-            “ Perhaps one reason we are fascinated by cats is because such a
-            small animal can contain so much independence, dignity, and freedom
-            of spirit. ”
-          </p>
-        </div>
-        </div>
+    <div class="article">
+
     </div>
     <div class="news-tips">
         <div class="news-container">
@@ -59,50 +52,12 @@
             </div>
         </div>
     </div>
-    <div class="articles news-container">
-        <h4 class="article-h4">Featured cat care articles</h4>
-        <div class="d-flex justify-content-between tips-card-col">
-            <div class="article-card">
-                <img src="<?php echo get_template_directory_uri()."/imgs/ARTICLE-ONE.png"; ?>" alt="Cat" class="article-image" />
-                <div class="card-text-container">
-                    <h5 class="card-title">Your Cat's Healthy Skin and Coat </h5>
-                    <p class="hashtag">#health</p>
-                    <p class="card-text">Do cats drink water? Yes, like humans and many other animals, cats need water to survive. Many cats don’t drink as much as they should, though. Find out why they need water and how to get your own kitty to drink more.</p>
-                    <div class="d-flex justify-content-end">
-                        <a href="../articles" >
-                            <button class="card-btn">read more</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="article-card">
-            <img src="<?php echo get_template_directory_uri()."/imgs/ARTICLE-TWO.png"; ?>" alt="Cat" class="article-image" />
-            <div class="card-text-container">
-                    <h5 class="card-title">Your Cat's Healthy Skin and Coat </h5>
-                    <p class="hashtag">#health</p>
-                    <p class="card-text">Do cats drink water? Yes, like humans and many other animals, cats need water to survive. Many cats don’t drink as much as they should, though. Find out why they need water and how to get your own kitty to drink more.</p>
-                    <div class="d-flex justify-content-end">
-                        <a href="../articles" >
-                            <button class="card-btn">read more</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="article-card">
-            <img src="<?php echo get_template_directory_uri()."/imgs/ARTICLE-THREE.png"; ?>" alt="Cat" class="article-image" />
-            <div class="card-text-container">
-                    <h5 class="card-title">Your Cat's Healthy Skin and Coat </h5>
-                    <p class="hashtag">#health</p>
-                    <p class="card-text">Do cats drink water? Yes, like humans and many other animals, cats need water to survive. Many cats don’t drink as much as they should, though. Find out why they need water and how to get your own kitty to drink more.</p>
-                    <div class="d-flex justify-content-end">
-                        <a href="../articles" >
-                            <button class="card-btn">read more</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
+    <div class="d-flex flex-column bottom">
+        <div class="d-flex align-self-center copy">
+          <img class="copy-img " src="<?php echo get_template_directory_uri()."/imgs/copyright.svg"; ?>" alt="Copy" />
+          <p class="copy-text ">Copyright 2021, Cat Cart. All rights reserved</p>
         </div>
-    </div>
+        <img src="<?php echo get_template_directory_uri()."/imgs/CORNER-RIGHT.png"; ?>" alt="Vector" class="img-fluid vector align-self-end" />
+        <img src="<?php echo get_template_directory_uri()."/imgs/CORNER-RIGHT-SMALL.png"; ?>" alt="Vector" class="img-fluid vector-small align-self-end" />
+      </div>
 </section>
-
-<?php get_footer(); ?>
