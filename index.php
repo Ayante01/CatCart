@@ -13,7 +13,7 @@
             <span class="h1-end">Comfy</span>
           </h1>
 
-          <div class="shop-btn">
+          <div class="shop-btn hvr-grow">
             <a href="#">
               <div
                 class="btn-one d-flex justify-content-center align-items-center"
@@ -59,7 +59,7 @@
             small animal can contain so much independence, dignity, and freedom
             of spirit. ”
           </p>
-          <div class="watch-tips-btn">
+          <div class="watch-tips-btn hvr-grow">
             <a href="#">
               <div
                 class="btn-two d-flex justify-content-center align-items-center"

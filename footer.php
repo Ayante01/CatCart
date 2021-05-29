@@ -30,7 +30,7 @@
                   placeholder="Enter your email address here"
                 />
                 <input
-                  class="col-2 input-submit"
+                  class="col-2 input-submit hvr-grow"
                   type="submit"
                   value="submit"
                 />

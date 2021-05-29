@@ -24,14 +24,13 @@
               class="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#navbarToggleExternalContent"
-              aria-controls="navbarToggleExternalContent"
+              data-bs-target="#navbarToggleExternalContentMobile"
+              aria-controls="navbarToggleExternalContentMobile"
               aria-expanded="false"
               aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
           </div>
-    
           <div
             class="collapse navbar-collapse"
             id="navbarToggleExternalContent">
@@ -47,11 +46,28 @@
               'walker'            => new WP_Bootstrap_Navwalker()
               ) );
             ?>
+          
             <img id="shop-cart-web"
                 src="<?php echo get_template_directory_uri()."/imgs/shopping_cart_black_24dp.svg"; ?>"
                 alt="Cart"
                 class="nav-icon img-fluid"/>
           </div>
+          
         </div>
       </nav>
+      <div
+            class="collapse navbar-collapse"
+            id="navbarToggleExternalContentMobile">
+            <?php
+              wp_nav_menu( array(
+              'theme_location'    => 'primary',
+              'depth'             => 1,
+              'container'         => 'div',
+              'container_class'   => 'cat-ul navbar-nav',
+              'container_id'      => '',
+              'menu_class'        => 'navbar-nav mr-auto',
+              'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+              'walker'            => new WP_Bootstrap_Navwalker()
+              ) );
+            ?>
     </header>
