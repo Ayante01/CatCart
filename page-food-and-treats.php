@@ -6,7 +6,7 @@
       <h2 class="col-1 h2-f-t">Food and Treats</h2>
       <hr class="orange-line">
     </div>
-      <a class="f-t-a" href="#">
+      <a class="f-t-a hvr-shrink" href="#">
         <div class="img-fluid f-t f-t-left food">
           <div class="f-t-text d-flex justify-content-end">
             <p class="text-left">Food</p>
@@ -14,7 +14,7 @@
         </div>
       </a>
   </div>
-      <a class="f-t-col" href="#">
+      <a class="f-t-col hvr-shrink" href="#">
         <div class="img-fluid f-t f-t-right treats">
           <div class="f-t-text d-flex">
               <p class="text-right">Treats</p>

@@ -37,24 +37,39 @@
               </form>
             </div>
             <div class="row footer-nav-container">
-              <div class="col-3 footer-nav">
-                <a href="#">
+              <div class="col-3 footer-nav d-flex flex-column">
+                <a href="#" class="hvr-bob">
                   <p class="footer-a-text">Home</p>
                 </a>
-                <a href="#">
+                <a href="#" class="hvr-bob">
                   <p class="footer-a-text">Food & treats</p>
                 </a>
-                <a href="#">
+                <a href="#" class="hvr-bob">
                   <p class="footer-a-text">Bed & chill</p>
                 </a>
               </div>
-              <div class="col-3 footer-nav second-row">
-                <a href="#">
+              <div class="col-3 footer-nav second-row d-flex flex-column">
+                <a href="#" class="hvr-bob">
                   <p class="footer-a-text">Tips</p>
                 </a>
-                <a href="#">
+                <a href="#" class="hvr-bob">
                   <p class="footer-a-text">Contact</p>
                 </a>
+              </div>
+              <div class="col-3 d-flex justify-content-between align-items-end social-medias">
+                <a href="#">
+                  <img
+                  src="<?php echo get_template_directory_uri()."/imgs/facebook.svg"; ?>"
+                  alt="Facebook"
+                  class="social-icon hvr-grow"/>
+                </a>
+                <a href="#">
+                  <img
+                  src="<?php echo get_template_directory_uri()."/imgs/instagram.svg"; ?>"
+                  alt="Instagram"
+                  class="social-icon insta hvr-grow"/>
+                </a>
+              </div>
               </div>
             </div>
           </div>

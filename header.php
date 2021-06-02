@@ -12,7 +12,7 @@
     <header>
       <nav class="cat-nav navbar navbar-light navbar-expand-xl">
         <div class="container-fluid d-flex justify-content-between">
-          <a class="navbar-brand" href="./Home">
+          <a class="navbar-brand hvr-grow" href="./Home">
             <img src="<?php echo get_template_directory_uri()."/imgs/LOGO.png"; ?>" alt="Logo" class="img-fluid logo-img" />
           </a>
           <div class="d-flex">
@@ -50,7 +50,7 @@
             <img id="shop-cart-web"
                 src="<?php echo get_template_directory_uri()."/imgs/shopping_cart_black_24dp.svg"; ?>"
                 alt="Cart"
-                class="nav-icon img-fluid"/>
+                class="nav-icon img-fluid hvr-grow"/>
           </div>
           
         </div>

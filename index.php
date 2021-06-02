@@ -13,7 +13,7 @@
             <span class="h1-end">Comfy</span>
           </h1>
 
-          <div class="shop-btn hvr-grow">
+          <div class="shop-btn hvr-forward">
             <a href="#">
               <div
                 class="btn-one d-flex justify-content-center align-items-center"
@@ -59,11 +59,9 @@
             small animal can contain so much independence, dignity, and freedom
             of spirit. ”
           </p>
-          <div class="watch-tips-btn hvr-grow">
+          <div class="watch-tips-btn hvr-forward">
             <a href="#">
-              <div
-                class="btn-two d-flex justify-content-center align-items-center"
-              >
+              <div class="btn-two d-flex justify-content-center align-items-center">
                 <p class="watch-tips-text">Watch tips</p>
                 <img src="<?php echo get_template_directory_uri()."/imgs/arrow.svg"; ?>" alt="Arrow" class="arrow-two" />
               </div>

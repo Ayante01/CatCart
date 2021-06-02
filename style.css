@@ -1,6 +1,14 @@
 #shop-cart-mobile {
   display: none;
 }
+.nav-icon {
+  cursor: pointer;
+}
+.social-icon {
+  width: 66px;
+  height: 66px;
+  cursor: pointer;
+}
 body {
   background-color: #eeedea;
   font-family: "Raleway";
@@ -35,6 +43,10 @@ h2 {
 .nav-link {
   font-size: 20px;
   margin-right: 70px;
+  color: #0e1914;
+}
+.nav-link:focus {
+  color: #0e1914;
 }
 .nav-icon {
   width: 30px;
@@ -377,7 +389,6 @@ br {
   font-weight: 700;
 }
 .article {
-  background-image: url("./imgs/CAT-ARTICLE.png");
   width: 100%;
   height: 80vh;
   background-attachment: fixed;
@@ -435,6 +446,20 @@ br {
 }
 .social-row {
   margin-top: 38px;
+}
+.breadcrumb {
+  padding-top: 32px;
+}
+.home-breadcrumb {
+  margin-right: 8px;
+}
+.breadcrumb-text {
+  color: #eeedea;
+  margin: 0 8px 0 0;
+  font-size: 20px;
+}
+.active {
+  font-weight: 700;
 }
 
 /* Laptops */
@@ -752,6 +777,10 @@ br {
   }
   .article {
     background-image: url("./imgs/CAT-ARTICLE-SMALL.png");
+  }
+  .social-medias {
+    width: 60%;
+    margin-top: 36px;
   }
 }
 /* Mobile */
@@ -1099,6 +1128,22 @@ br {
   .article {
     background-image: url("./imgs/CAT-ARTICLE-SMALL.png");
   }
+  .social-medias {
+    width: 100%;
+    margin-top: -76px;
+    justify-content: flex-end !important;
+  }
+  .social-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 24px;
+  }
+  .insta {
+    margin-right: 0;
+  }
+  .breadcrumb-text {
+    font-size: 16px;
+  }
 }
 @media screen and (min-device-width: 500px) and (max-device-width: 600px) {
   .article-card {
@@ -1294,4 +1339,108 @@ br {
 .hvr-float:active {
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
+}
+
+/* Shrink */
+.hvr-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-shrink:hover,
+.hvr-shrink:focus,
+.hvr-shrink:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.hvr-forward {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-forward:hover,
+.hvr-forward:focus,
+.hvr-forward:active {
+  -webkit-transform: translateX(8px);
+  transform: translateX(8px);
+}
+
+/* Bob */
+@-webkit-keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@-webkit-keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+.hvr-bob {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-bob:hover,
+.hvr-bob:focus,
+.hvr-bob:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: 0.3s, 1.5s;
+  animation-duration: 0.3s, 1.5s;
+  -webkit-animation-delay: 0s, 0.3s;
+  animation-delay: 0s, 0.3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
 }
