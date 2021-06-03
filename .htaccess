@@ -1,1 +1,2 @@
-# proteger wpconfig.php <files wp-config.php> order allow,deny deny from all </files>
+# proteger wpconfig.php 
+<files wp-config.php> order allow,deny deny from all </files>
