@@ -7,6 +7,15 @@
     <title><?php bloginfo('name'); ?></title>
     <meta name="description" content="Free shipping premium cat items. Get the best quality products to take care of the health and comfy of your cat."/>
     <?php wp_head(); ?>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-198934463-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-198934463-1');
+    </script>
   </head>
 
   <body>
