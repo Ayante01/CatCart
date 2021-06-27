@@ -27,10 +27,13 @@
             <img src="<?php echo get_template_directory_uri()."/imgs/LOGO.png"; ?>" alt="Logo" class="img-fluid logo-img" />
           </a>
           <div class="d-flex">
+            <a href="https://dev-catcartshop.pantheonsite.io/cart/">
             <img id="shop-cart-mobile"
                   src="<?php echo get_template_directory_uri()."/imgs/shopping_cart_black_24dp.svg"; ?>"
                   alt="Cart"
                   class="nav-icon img-fluid"/>
+            </a>
+
             <button
               class="navbar-toggler"
               type="button"

@@ -38,21 +38,21 @@
             </div>
             <div class="row footer-nav-container">
               <div class="col-3 footer-nav d-flex flex-column">
-                <a href="#" class="hvr-bob">
+                <a href="/home" class="hvr-bob">
                   <p class="footer-a-text">Home</p>
                 </a>
-                <a href="#" class="hvr-bob">
+                <a href="/food-and-treats" class="hvr-bob">
                   <p class="footer-a-text">Food & treats</p>
                 </a>
-                <a href="#" class="hvr-bob">
+                <a href="/bed-and-chill" class="hvr-bob">
                   <p class="footer-a-text">Bed & chill</p>
                 </a>
               </div>
               <div class="col-3 footer-nav second-row d-flex flex-column">
-                <a href="#" class="hvr-bob">
+                <a href="/tips" class="hvr-bob">
                   <p class="footer-a-text">Tips</p>
                 </a>
-                <a href="#" class="hvr-bob">
+                <a href="/contact" class="hvr-bob">
                   <p class="footer-a-text">Contact</p>
                 </a>
               </div>
