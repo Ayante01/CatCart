@@ -33,9 +33,7 @@
                   alt="Cart"
                   class="nav-icon img-fluid"/>
            </a>
-
-           
-
+        
             <button
               class="navbar-toggler"
               type="button"
@@ -62,11 +60,12 @@
               'walker'            => new WP_Bootstrap_Navwalker()
               ) );
             ?>
-          
+          <a href="https://dev-catcartshop.pantheonsite.io/cart">
             <img id="shop-cart-web"
                 src="<?php echo get_template_directory_uri()."/imgs/shopping_cart_black_24dp.svg"; ?>"
                 alt="Cart"
                 class="nav-icon img-fluid hvr-grow"/>
+          </a>
           </div>
           
         </div>
