@@ -950,18 +950,18 @@ br {
   .footer-row-one {
     margin: 0 0 0 20px;
   }
-  .form {
+  form {
     display: flex;
     flex-direction: column;
     align-content: flex-end;
   }
-  .input-text {
+  input-text {
     width: 90%;
     font-size: 14px;
     padding: 12px 12px;
     margin: 0 18px 16px 0;
   }
-  .input-submit {
+  input-submit {
     font-size: 16px;
     padding: 12px 16px;
     width: 30%;

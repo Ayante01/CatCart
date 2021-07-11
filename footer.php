@@ -22,19 +22,20 @@
                 Subscribe for all offers and updates we have for you and your
                 cat. We are glad to be part of your meowy family
               </p>
-              <form class="row form" action="">
-                <input
-                  class="input-text col-8"
-                  type="email"
-                  name="email"
-                  placeholder="Enter your email address here"
-                />
-                <input
-                  class="col-2 input-submit hvr-grow"
-                  type="submit"
-                  value="submit"
-                />
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
               </form>
+              <?php echo do_shortchode('[wpforms id="91" title="false"]')?>
             </div>
             <div class="row footer-nav-container">
               <div class="col-3 footer-nav d-flex flex-column">
