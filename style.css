@@ -956,10 +956,11 @@ br {
     align-content: flex-end;
   }
   input-text {
-    width: 90%;
+    width: 60% !important;
     font-size: 14px;
     padding: 12px 12px;
     margin: 0 18px 16px 0;
+    background-color: #d0d8ce !important;
   }
   input-submit {
     font-size: 16px;
@@ -967,6 +968,7 @@ br {
     width: 30%;
     margin-right: 18px;
     align-self: flex-end;
+    background-color: #d68708 !important;
   }
   .footer-nav-container {
     padding-left: 30px;
