@@ -201,14 +201,14 @@ input {
   border-radius: 8px;
   border: none;
 }
-.input-text {
+input-text {
   background-color: #aab5a673;
   color: #0e1914;
   margin: 0 14px 0 0;
   font-size: 14px;
   padding: 16px 24px;
 }
-.input-submit {
+input-submit {
   background-color: #d68708;
   color: #eeedea;
   font-size: 20px;
@@ -950,25 +950,23 @@ br {
   .footer-row-one {
     margin: 0 0 0 20px;
   }
-  form {
+  .form {
     display: flex;
     flex-direction: column;
     align-content: flex-end;
   }
-  input-text {
-    width: 60% !important;
+  .input-text {
+    width: 90%;
     font-size: 14px;
     padding: 12px 12px;
     margin: 0 18px 16px 0;
-    background-color: #d0d8ce !important;
   }
-  input-submit {
+  .input-submit {
     font-size: 16px;
     padding: 12px 16px;
     width: 30%;
     margin-right: 18px;
     align-self: flex-end;
-    background-color: #d68708 !important;
   }
   .footer-nav-container {
     padding-left: 30px;
