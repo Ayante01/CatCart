@@ -3,22 +3,22 @@
     <section class="container-fluid">
       <div class="row class pc-view">
         <div class="col-1 v-container water-mark">
-          <p class="v-text">LA CHINGADA MADRE</p>
-          <p class="v-text">high-quality brands</p>
+          <p class="v-text">trato de calidad</p>
+          <p class="v-text">marcas de alta-calidad</p>
         </div>
         <div class="col-5 title-container">
           <h1 class="main-title">
-            <span class="h1-start">beware to give your cat the perfect</span>
-            Health <span class="h1-mid">&</span>
-            <span class="h1-end">Comfy</span>
+            <span class="h1-start">cuida de darle a tu gato la perfecta</span>
+            Salud <span class="h1-mid">&</span>
+            <span class="h1-end">Comodidad</span>
           </h1>
-
+          
           <div class="shop-btn hvr-forward">
             <a href="https://dev-catcartshop.pantheonsite.io/">
               <div
                 class="btn-one d-flex justify-content-center align-items-center"
               >
-                <p class="shop-text">shop now</p>
+                <p class="shop-text">compra ahora</p>
                 <img src="<?php echo get_template_directory_uri()."/imgs/arrow.svg"; ?>" alt="Arrow" class="arrow-one" />
               </div>
             </a>
@@ -33,9 +33,9 @@
     <section>
     <div class="mobile-view ">  
       <h1 class="main-title">
-            <span class="h1-start">beware to give your cat the perfect</span>
-            Health <span class="h1-mid">&</span>
-            <span class="h1-end">Comfy</span>
+            <span class="h1-start">cuida de darle a tu gato la perfecta</span>
+            Salud <span class="h1-mid">&</span>
+            <span class="h1-end">Comodidad</span>
           </h1>
           <img src="<?php echo get_template_directory_uri()."/imgs/IMG-HERO-SMALL.png"; ?>" alt="Cat" class="small-cat-hero align-self-end" />
           <div class="shop-btn">
@@ -43,7 +43,7 @@
               <div
                 class="btn-one d-flex justify-content-center align-items-center"
               >
-                <p class="shop-text">shop now</p>
+                <p class="shop-text">compra ahora</p>
                 <img src="<?php echo get_template_directory_uri()."/imgs/arrow.svg"; ?>" alt="Arrow" class="arrow-one" />
               </div>
             </a>
@@ -55,14 +55,14 @@
       <div class="container-fluid row watch-tips-container">
         <div class="col-5 watch-tips-col">
           <p class="watch-tips-title">
-            “ Perhaps one reason we are fascinated by cats is because such a
-            small animal can contain so much independence, dignity, and freedom
-            of spirit. ”
+            “ Quizás una de las razones por las que nos fascinan los gatos es por como
+              un animal tan pequeño puede contener tanta independencia, dignidad y libertad.
+              de espíritu. ”
           </p>
           <div class="watch-tips-btn hvr-forward">
             <a href="#">
               <div class="btn-two d-flex justify-content-center align-items-center">
-                <p class="watch-tips-text">Watch tips</p>
+                <p class="watch-tips-text">Ve los tips</p>
                 <img src="<?php echo get_template_directory_uri()."/imgs/arrow.svg"; ?>" alt="Arrow" class="arrow-two" />
               </div>
             </a>
@@ -74,12 +74,12 @@
     <section class="container-fluid">
       <div class="row">
         <div class="col-5 v-container how-we-work">
-          <h2>How we work?</h2>
+          <h2>Como trabajamos?</h2>
           <p class="how-we-work-p">
-            Giving your cat the best treatment will make him the happiest.
-            You’ll be able to find him high-quality products to feed him, but
-            also give him the space he deserves. As long as your cat are healthy
-            and comfortable you will be too.
+            Darle a tu gato el mejor trato lo hará siempre más feliz.
+            Podrá encontrar productos de alta calidad para alimentarlo, pero
+            también dale el espacio que se merece. Siempre que tu gato esté sano
+            y cómodo tú también lo estarás.
           </p>
           <div class="list-specify">
             <div class="d-flex services">
@@ -91,12 +91,12 @@
                 />
               </div>
               <div>
-                <h3>Free shipping</h3>
+                <h3>Envio Gratis</h3>
                 <p class="p-services">
-                  Your order will have free shipping with no limited amount to
-                  it. With free shipping, your order is delivered five to eight
-                  days after all your items are available to ship, including
-                  pre-order items.
+                  Tu pedido tendrá envío gratuito sin cantidad limitada.
+                  Con envío gratuito, su pedido se entregara en un plazo de cinco a ocho
+                  días después de que todos sus artículos estén disponibles para enviar, incluidos
+                  artículos por adelantado.
                 </p>
               </div>
             </div>
@@ -106,12 +106,12 @@
                 alt="Phone" class="phone" />
               </div>
               <div>
-                <h3>24/7 support</h3>
+                <h3>Apoyo 24/7</h3>
                 <p class="p-services">
-                  You will get help and find answers to any question as soon as
-                  they come up in your mind on 24/7 and in real-time. Just
-                  <a href="#">contact us.</a> Besides, you can ask to our vet
-                  every doubt about any product your cat needs.
+                 Recibirá ayuda y encontrará respuestas a cualquier pregunta tan pronto como
+                  vienen a tu mente las 24 horas del día, los 7 días de la semana y en tiempo real. Sólo
+                  <a href="#">contactanos.</a>Además, puedes preguntar a nuestro veterinario
+                  cualquier duda que tengas sobre los productos que tu gato necesite.
                 </p>
               </div>
             </div>
