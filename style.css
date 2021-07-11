@@ -201,14 +201,14 @@ input {
   border-radius: 8px;
   border: none;
 }
-input-text {
+.input-text {
   background-color: #aab5a673;
   color: #0e1914;
   margin: 0 14px 0 0;
   font-size: 14px;
   padding: 16px 24px;
 }
-input-submit {
+.input-submit {
   background-color: #d68708;
   color: #eeedea;
   font-size: 20px;
