@@ -22,6 +22,7 @@
                 Subscribe for all offers and updates we have for you and your
                 cat. We are glad to be part of your meowy family
               </p>
+              <form class="row form" action="">
               
               
               
@@ -33,9 +34,9 @@
               
               
               
-              
+                <?php echo do_shortcode('[wpforms id="91" title="false"]') ?>
               </form>
-              <?php echo do_shortchode('[wpforms id="91" title="false"]')?>
+              
             </div>
             <div class="row footer-nav-container">
               <div class="col-3 footer-nav d-flex flex-column">
