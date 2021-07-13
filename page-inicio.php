@@ -10,7 +10,7 @@
           <h1 class="main-title">
             <span class="h1-start">cuida de darle a tu gato la perfecta</span>
             Salud <span class="h1-mid">&</span>
-            <span class="h1-end">Comodidad</span>
+            <span class="h1-end">Comfort</span>
           </h1>
           
           <div class="shop-btn hvr-forward">

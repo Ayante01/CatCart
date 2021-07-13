@@ -403,7 +403,7 @@ br {
   margin-bottom: 28px;
 }
 .contact-row {
-  margin-top: 282px;
+  margin-top: 235px;
 }
 .values {
   margin: 0 192px 200px 192px;
@@ -413,6 +413,8 @@ br {
 }
 .green {
   color: #919f92;
+  font-size: 54px;
+  font-weight: 700;
 }
 .doctor-row {
   margin: 200px 0 0 0;
@@ -460,6 +462,9 @@ br {
 }
 .active {
   font-weight: 700;
+}
+.align-right {
+  text-align: right;
 }
 
 /* Laptops */
@@ -761,6 +766,12 @@ br {
   }
   .values {
     margin: 0 0 250px 0;
+  }
+  .values-text {
+    width: 80%;
+  }
+  .green {
+    font-size: 44px;
   }
   .contact-text {
     width: 90%;
@@ -1123,10 +1134,9 @@ br {
   }
   .values-text {
     width: 100%;
-    order: 2;
   }
   .green {
-    order: 1;
+    font-size: 24px;
   }
   .article {
     background-image: url("./imgs/CAT-ARTICLE-SMALL.png");
