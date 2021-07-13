@@ -488,6 +488,7 @@ br {
   padding: 16px 24px;
   border-radius: 8px;
   border: none;
+  margin-top: 24px;
 }
 /* Laptops */
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
@@ -593,6 +594,9 @@ br {
 }
 /* Ipad */
 @media only screen and (min-width: 501px) and (max-width: 1024px) {
+  #wpforms-119-field_1 {
+    width: 100%;
+  }
   #shop-cart-web {
     display: none;
   }
@@ -821,6 +825,9 @@ br {
 }
 /* Mobile */
 @media only screen and (max-width: 600px) {
+  #wpforms-119-field_1 {
+    width: 100%;
+  }
   #shop-cart-web {
     display: none;
   }
