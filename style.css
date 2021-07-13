@@ -469,7 +469,7 @@ br {
 .mt-custom {
   margin-top: 40vh;
 }
-.wpforms-119-field_1 {
+#wpforms-119-field_1 {
   display: flex;
   align-self: center;
   width: 80%;
@@ -477,6 +477,13 @@ br {
   color: #0e1914;
   margin: 0 14px 0 0;
   font-size: 14px;
+  padding: 16px 24px;
+}
+#wpforms-submit-119 {
+  background-color: #d68708;
+  color: #eeedea;
+  font-size: 20px;
+  font-weight: 700;
   padding: 16px 24px;
 }
 /* Laptops */
