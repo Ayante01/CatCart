@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-5 tips-news-text-container">
                 <p class="tips-left-text"><?php the_field('body_two'); ?></p>
-                    <h4 class="hashtag resourse"><?php the_field('reference'); ?></h4>
+                <h4 class="hashtag resourse">Resource from: https://www.purina.com/<br>articles/cat/health/guide-to-cat-hydration</h4>
                 </div>
             </div>
         </div>
@@ -44,7 +44,7 @@
                         $args = array(
                             'post_type' => 'page',
                             'posts_per_page' => -1,
-                            'post_parent' => $post->ID,
+                            'post_parent' => $post->es/ID,
                             'order' => 'ASC',
                             'orderby' => 'menu_order'
                         );

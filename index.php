@@ -60,7 +60,7 @@
             of spirit. ”
           </p>
           <div class="watch-tips-btn hvr-forward">
-            <a href="#">
+            <a href="./tips">
               <div class="btn-two d-flex justify-content-center align-items-center">
                 <p class="watch-tips-text">Watch tips</p>
                 <img src="<?php echo get_template_directory_uri()."/imgs/arrow.svg"; ?>" alt="Arrow" class="arrow-two" />
@@ -76,10 +76,9 @@
         <div class="col-5 v-container how-we-work">
           <h2>How we work?</h2>
           <p class="how-we-work-p">
-            Giving your cat the best treatment will make him the happiest.
-            You’ll be able to find him high-quality products to feed him, but
-            also give him the space he deserves. As long as your cat are healthy
-            and comfortable you will be too.
+          Giving your cat the best treatment will make him the happiest.
+          You’ll be able to find high-quality products to feed him, but also give him the space he deserves.
+          As long as your cat is healthy and comfortable, you will be too.    
           </p>
           <div class="list-specify">
             <div class="d-flex services">
@@ -93,10 +92,8 @@
               <div>
                 <h3>Free shipping</h3>
                 <p class="p-services">
-                  Your order will have free shipping with no limited amount to
-                  it. With free shipping, your order is delivered five to eight
-                  days after all your items are available to ship, including
-                  pre-order items.
+                Your order will have free shipping with no limited amount to it.
+                With free shipping, your order is delivered five to eight days after all your items are available to ship, including pre-ordered items.
                 </p>
               </div>
             </div>
@@ -108,10 +105,8 @@
               <div>
                 <h3>24/7 support</h3>
                 <p class="p-services">
-                  You will get help and find answers to any question as soon as
-                  they come up in your mind on 24/7 and in real-time. Just
-                  <a href="#">contact us.</a> Besides, you can ask to our vet
-                  every doubt about any product your cat needs.
+                  You will get help and find answers to any question as soon as they come up with your mind on 24/7 and in real-time. Just
+                  <a href="./contact">contact us.</a> Besides, you can ask to our vet every doubt about any product your cat needs.
                 </p>
               </div>
             </div>

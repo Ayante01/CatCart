@@ -35,6 +35,7 @@
                   value="submit"
                 />
               </form>
+              
             </div>
             <div class="row footer-nav-container">
               <div class="col-3 footer-nav d-flex flex-column">
