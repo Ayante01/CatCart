@@ -1,5 +1,5 @@
     <footer>
-    <?php echo do_shortcode( '[mailpoet_form id="4"]' )?>
+    <?php echo do_shortcode( '[wpforms id="119" title="false"]' )?>
       <div class="col footer-cat-small">
           <img
             src="<?php echo get_template_directory_uri()."/imgs/FOOOTER-CAT-SMALL.png"; ?>"
