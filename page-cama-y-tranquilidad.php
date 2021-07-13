@@ -23,4 +23,4 @@
       </a>
 </section>
 
-<?php get_footer("footerSp"); ?>
+<?php get_footer("sp"); ?>
