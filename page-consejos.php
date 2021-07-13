@@ -8,11 +8,11 @@
             </a>
             <p class="breadcrumb-text active">I</p>
             <a href="#">
-                <p class="breadcrumb-text active hvr-float">Tips</p>
+                <p class="breadcrumb-text active hvr-float">Consejos</p>
             </a>
         </div>
-        <div class="col-5 watch-tips-col">
-          <p class="watch-tips-title">
+        <div class="col-5 watch-tips-col animate__animated animate__backInRight">
+          <p class="watch-tips-title mt-custom">
           “ Quizás una de las razones por las que nos fascinan los gatos es por como
             un animal tan pequeño puede contener tanta independencia, dignidad y libertad.
             de espíritu. ”

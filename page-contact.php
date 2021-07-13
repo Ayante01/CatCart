@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
     <section class="container-fluid">
-        <div class="d-flex justify-content-center align-items-center flex-column">
+        <div class="d-flex justify-content-center align-items-center flex-column animate__animated animate__backInDown">
             <img src="<?php echo get_template_directory_uri()."/imgs/CONTACT-IMAGE.png"; ?>" alt="ContactImage" class="img-fluid contact-image">
             <h2 class="contact-title">Cat Cart Shop Online</h2>
             <p class="contact-text text-center col-6">We are an online shop dedicated to giving the best high-quality products to bring health and comfort to your cat. Our stock building is located in Puntarenas, Costa Rica.</p>

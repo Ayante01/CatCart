@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
     <section class="container-fluid">
-        <div class="d-flex justify-content-center align-items-center flex-column">
+        <div class="d-flex justify-content-center align-items-center flex-column animate__animated animate__backInDown">
             <img src="<?php echo get_template_directory_uri()."/imgs/CONTACT-IMAGE.png"; ?>" alt="ContactImage" class="img-fluid contact-image">
             <h2 class="contact-title">Cat Cart Tienda En linea</h2>
             <p class="contact-text text-center col-6">Somos una tienda online dedicada a dar los mejores productos de alta calidad para aportar salud y comodidad a tu gato. Nuestro almacén se encuentra en Puntarenas, Costa Rica.</p>

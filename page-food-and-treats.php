@@ -6,7 +6,7 @@
       <h2 class="col-1 h2-f-t">Food and Treats</h2>
       <hr class="orange-line">
     </div>
-      <a class="f-t-a hvr-shrink" href="https://dev-catcartshop.pantheonsite.io/food/">
+      <a class="f-t-a hvr-shrink animate__animated animate__backInUp" href="https://dev-catcartshop.pantheonsite.io/food/">
         <div class="img-fluid f-t f-t-left food">
           <div class="f-t-text d-flex justify-content-end">
             <p class="text-left">Food</p>
@@ -14,7 +14,7 @@
         </div>
       </a>
   </div>
-      <a class="f-t-col hvr-shrink" href="https://dev-catcartshop.pantheonsite.io/treats-2/">
+      <a class="f-t-col hvr-shrink animate__animated animate__backInUp" href="https://dev-catcartshop.pantheonsite.io/treats-2/">
         <div class="img-fluid f-t f-t-right treats">
           <div class="f-t-text d-flex">
               <p class="text-right">Treats</p>

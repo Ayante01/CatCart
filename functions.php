@@ -5,6 +5,9 @@
         //load BS
         wp_enqueue_style('bootstrap_css', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css');
 
+        //Animate
+        wp_enqueue_style('animate', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
         //Google Fonts
         wp_enqueue_style('google_fonts_Libre_Barskerville', 'https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
         wp_enqueue_style('google_fonts_Raleway', 'https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');

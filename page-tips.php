@@ -11,8 +11,8 @@
                 <p class="breadcrumb-text active hvr-float">Tips</p>
             </a>
         </div>
-        <div class="col-5 watch-tips-col">
-          <p class="watch-tips-title">
+        <div class="col-5 watch-tips-col animate__animated animate__backInRight">
+          <p class="watch-tips-title mt-custom">
             “ Perhaps one reason we are fascinated by cats is because such a
             small animal can contain so much independence, dignity, and freedom
             of spirit. ”

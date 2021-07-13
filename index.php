@@ -6,7 +6,7 @@
           <p class="v-text">premium treat</p>
           <p class="v-text">high-quality brands</p>
         </div>
-        <div class="col-5 title-container">
+        <div class="col-5 title-container animate__animated animate__backInLeft">
           <h1 class="main-title">
             <span class="h1-start">beware to give your cat the perfect</span>
             Health <span class="h1-mid">&</span>
