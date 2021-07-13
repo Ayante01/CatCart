@@ -1,4 +1,5 @@
     <footer>
+    <?php echo do_shortcode( '[mailpoet_form id="4"]' )?>
       <div class="col footer-cat-small">
           <img
             src="<?php echo get_template_directory_uri()."/imgs/FOOOTER-CAT-SMALL.png"; ?>"
@@ -35,7 +36,6 @@
                   value="submit"
                 />
               </form>
-              
             </div>
             <div class="row footer-nav-container">
               <div class="col-3 footer-nav d-flex flex-column">
