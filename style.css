@@ -478,6 +478,7 @@ br {
   margin: 0 14px 0 0;
   font-size: 14px;
   padding: 16px 24px;
+  border-radius: 8px;
 }
 #wpforms-submit-119 {
   background-color: #d68708;
@@ -485,6 +486,8 @@ br {
   font-size: 20px;
   font-weight: 700;
   padding: 16px 24px;
+  border-radius: 8px;
+  border: none;
 }
 /* Laptops */
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
