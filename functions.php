@@ -31,14 +31,11 @@
     register_nav_menus( array(
         'primary' => __( 'Primary Menu', 'THEMENAME' ),
     ) );
-
     //support featured image
     add_theme_support('post-thumbnails'); 
-
     //Robots
     add_filter('robots_txt', 'custom_robots_txt', 10,  2);
     function custom_robots_txt($output, $public) {
-
         $robots_txt =  "User-agent: * \n";
         $robots_txt .=  "Sitemap: https://dev-catcart.pantheonsite.io/sitemap.xml \n";
         $robots_txt .=  "Disallow: /secure/ ";
